@@ -1,3 +1,3 @@
-class Cae extends Vehicle {
+class Car extends Vehicle {
   
 }
