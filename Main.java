@@ -10,7 +10,7 @@ class Main {
     
     System.out.println("【車の情報】");
     car.printData();
-    System.out.println("ガソリン量：" + car.getFuel() + "L");
+    //System.out.println("ガソリン量：" + car.getFuel() + "L");
     
     System.out.println("-----------------");
     System.out.print("給油する量を入力してください：");
