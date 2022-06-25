@@ -5,9 +5,10 @@ class Car extends Vehicle {
   }
   
   public void printData() {
-    System.out.println("名前：" + this.getName());
-    System.out.println("色：" + this.getColor());
-    System.out.println("走行距離：" + this.getDistance() + "km");
+    super.printData();
+    //System.out.println("名前：" + this.getName());
+    //System.out.println("色：" + this.getColor());
+    //System.out.println("走行距離：" + this.getDistance() + "km");
     System.out.println("ガソリン量：" + this.fuel + "L");
   }
   
