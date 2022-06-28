@@ -1,5 +1,5 @@
 class Car extends Vehicle {
-  private int fuel = 50;
+  private int fuel = 100;
   
   Car(String name, String color) {
     super(name, color);
