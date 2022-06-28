@@ -1,4 +1,4 @@
-class Vehicle {
+abstract class Vehicle {
   private String name;
   private String color;
   protected int distance = 0;
@@ -29,8 +29,9 @@ class Vehicle {
   }
   
   public void printData() {
-    System.out.println("名前：" + this.name);
-    System.out.println("色：" + this.color);
-    System.out.println("走行距離：" + this.distance + "km");
+    System.out.println("名前: " + this.name);
+    System.out.println("色: " + this.color);
+    System.out.println("走行距離: " + this.distance + " (km)");
   }
+  public abstract void run(int distance);
 }
